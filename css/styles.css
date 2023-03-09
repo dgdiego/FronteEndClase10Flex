@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.nav-conteiner {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+}
+
+.logo {
+    padding: 10px 0 10px 20px;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    list-style: none;
+    padding-right: 10px;
+}
+
+.nav-bar li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.main-conteiner {
+    padding: 40px 20px;
+    display: flex;
+    background-color: #E5E5E5;
+}
+
+.pizza-img {
+    background-image: url('../img/delivery.jpg');
+    background-size: cover;
+    height: 350px;
+    flex-grow: 0.5;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.pizza-img-title {
+    color: #FC200C;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.pizza-img-title span {
+    color: #fff;
+
+}
+
+.podio-container {
+    text-align: center;
+    background-color: #fff;
+    flex-grow: 1;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.podio-title {
+    text-align: center;
+    color: #FC200C;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.podio-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+.podio-list h3 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #222;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.podio-list ol {
+    text-align: left;
+}
+
+.podio-list ol li {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222;
+    padding: 5px 0;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 10px 30px;
+
+}
+.nav-bar-footer li{
+    font-weight: 400;
+    font-size: 16px;
+    color: #F3F3F3;
+    padding: 8px 0px;
+    list-style: none;
+}
